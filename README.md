@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) | [Go](./algorithms/16.3Sum_Closest/main.go)|Medium|
 |15|[3Sum](https://leetcode.com/problems/3sum/description/) | [Go](./algorithms/15.3Sum/main.go)|Medium|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Go](./algorithms/14.Longest_Common_Prefix/main.go)|Easy|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Go](./algorithms/13.Roman_to_Integer/main.go)|Easy|
