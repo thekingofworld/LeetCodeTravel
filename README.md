@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|18|[4Sum](https://leetcode.com/problems/4sum/description/) | [Go](./algorithms/18.4Sum/main.go)|Medium|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [Go](./algorithms/17.Letter_Combinations_of_a_Phone_Number/main.go)|Medium|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) | [Go](./algorithms/16.3Sum_Closest/main.go)|Medium|
 |15|[3Sum](https://leetcode.com/problems/3sum/description/) | [Go](./algorithms/15.3Sum/main.go)|Medium|
