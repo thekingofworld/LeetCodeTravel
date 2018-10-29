@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Go](./algorithms/23.Merge_k_Sorted_Lists/main.go)|Hard|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | [Go](./algorithms/22.Generate_Parentheses/main.go)|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | [Go](./algorithms/21.Merge_Two_Sorted_Lists/main.go)|Easy|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Go](./algorithms/20.Valid_Parentheses/main.go)|Easy|
