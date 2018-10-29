@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Go](./algorithms/20.Valid_Parentheses/main.go)|Easy|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [Go](./algorithms/19.Remove_Nth_Node_From_End_of_List/main.go)|Medium|
 |18|[4Sum](https://leetcode.com/problems/4sum/description/) | [Go](./algorithms/18.4Sum/main.go)|Medium|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [Go](./algorithms/17.Letter_Combinations_of_a_Phone_Number/main.go)|Medium|
