@@ -12,16 +12,16 @@ func main() {
 	node1.Val = 1
 	node2 := new(ListNode)
 	node2.Val = 2
-	node3 := new(ListNode)
-	node3.Val = 3
-	node4 := new(ListNode)
-	node4.Val = 4
-	node5 := new(ListNode)
-	node5.Val = 5
+	//node3 := new(ListNode)
+	//node3.Val = 3
+	//node4 := new(ListNode)
+	//node4.Val = 4
+	//node5 := new(ListNode)
+	//node5.Val = 5
 	node1.Next = node2
-	node2.Next = node3
-	node3.Next = node4
-	node4.Next = node5
+	//node2.Next = node3
+	//node3.Next = node4
+	//node4.Next = node5
 	head := reverseKGroup(node1, 2)
 	for head != nil {
 		fmt.Println(head.Val)
@@ -38,14 +38,25 @@ func main() {
  */
 func reverseKGroup(head *ListNode, k int) *ListNode {
 	var newHead *ListNode
+	var last *ListNode
 	first := head
 	for first != nil {
 		cur, next := reverse(first, k)
 		if newHead == nil {
-			newHead = cur
+			if cur == nil {
+				newHead = first
+			} else {
+				newHead = cur
+			}
 		}
-		if cur == nil || next == nil {
+		if cur == nil {
 			break
+		}
+		if last == nil {
+			last = first
+		} else {
+			last.Next = cur
+			last = first
 		}
 		first.Next = next
 		first = next
@@ -62,7 +73,7 @@ func reverse(node *ListNode, k int) (*ListNode, *ListNode) {
 	}
 	k--
 	cur, next := reverse(node.Next, k)
-	if cur == nil || next == nil {
+	if cur == nil {
 		return nil, nil
 	}
 	node.Next.Next = node
