@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Go](./algorithms/25.Reverse_Nodes_in_k-Group/main.go)|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | [Go](./algorithms/24.Swap_Nodes_in_Pairs/main.go)|Medium|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Go](./algorithms/23.Merge_k_Sorted_Lists/main.go)|Hard|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | [Go](./algorithms/22.Generate_Parentheses/main.go)|Medium|
