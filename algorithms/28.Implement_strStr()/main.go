@@ -23,8 +23,8 @@ For the purpose of this problem, we will return 0 when needle is an empty string
  */
 
 func main() {
-	haystack := "mississippi"
-	needle := "issip"
+	haystack := "a"
+	needle := "a"
 	fmt.Println(strStr(haystack, needle))
 }
 
@@ -36,21 +36,29 @@ func strStr(haystack string, needle string) int {
 		return -1
 	}
 	start := -1
-	for i,j:=0,0; i<len(haystack) && j<len(needle); i++ {
+	j := 0
+	for i:=0; i<len(haystack) && j<len(needle); {
 		if haystack[i] != needle[j] {
+			if start != -1 {
+				i = start + 1
+			} else {
+				i++
+			}
 			start = -1
 			j = 0
 		} else {
-			fmt.Println(i)
-			fmt.Println(j)
 			if start == -1 {
 				start = i
 			}
 			if j == len(needle)-1 {
 				break
 			}
+			i++
 			j++
 		}
 	}
-	return start
+	if start + len(needle) -1 <= len(haystack)-1 && j == len(needle)-1 {
+		return start
+	}
+	return -1
 }
