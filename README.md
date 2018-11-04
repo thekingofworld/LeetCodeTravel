@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/) | [Go](./algorithms/29.Divide_Two_Integers/main.go)|Medium|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Go](./algorithms/28.Implement_strStr()/main.go)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/) | [Go](./algorithms/27.Remove_Element/main.go)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Go](./algorithms/26.Remove_Duplicates_from_Sorted_Array/main.go)|Easy|
