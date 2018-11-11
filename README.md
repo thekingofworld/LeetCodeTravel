@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Go](./algorithms/33.Search_in_Rotated_Sorted_Array/main.go)|Medium|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/) | [Go](./algorithms/32.Longest_Valid_Parentheses/main.go)|Hard|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [Go](./algorithms/31.Next_Permutation/main.go)|Medium|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/) | [Go](./algorithms/30.Substring_with_Concatenation_of_All_Words/main.go)|Hard|
