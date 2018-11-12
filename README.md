@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [Go](./algorithms/34.Find_First_and_Last_Position_of_Element_in_Sorted_Array/main.go)|Medium|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Go](./algorithms/33.Search_in_Rotated_Sorted_Array/main.go)|Medium|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/) | [Go](./algorithms/32.Longest_Valid_Parentheses/main.go)|Hard|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [Go](./algorithms/31.Next_Permutation/main.go)|Medium|
