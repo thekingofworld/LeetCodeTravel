@@ -25,7 +25,7 @@ func solveSudoku(board [][]byte)  {
 }
 
 func solve(board [][]byte, row, column int64) {
-	if row > 8 && column > 8 {
+	if row > 8 {
 		find = true
 		return
 	}
