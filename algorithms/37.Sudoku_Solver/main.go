@@ -14,7 +14,7 @@ func main() {
 	board = append(board, []byte{'.','.','.','4','1','9','.','.','5'})
 	board = append(board, []byte{'.','.','.','.','8','.','.','7','9'})
 	solveSudoku(board)
-	fmt.Println(board)
+	printBoard(board)
 }
 
 var find bool
@@ -42,12 +42,15 @@ func solve(board [][]byte, row, column int64) {
 	if board[row][column] == '.' {
 		candidates := []byte{'1', '2', '3', '4', '5', '6', '7', '8', '9',}
 		for i:=0; i<9; i++ {
-			if find {
-				return
-			}
 			board[row][column] = candidates[i]
+			//printBoard(board)
 			if isValidSudoku(board) {
 				solve(board, nextRow, nextColumn)
+			}
+			if find {
+				return
+			} else {
+				board[row][column] = '.'
 			}
 		}
 	} else {
@@ -106,4 +109,13 @@ func isValidSudoku(board [][]byte) bool {
 	}
 
 	return true
+}
+
+func printBoard(board [][]byte) {
+	for i:=0; i<9; i++ {
+		s := fmt.Sprintf("| %+q | %+q | %+q | %+q | %+q | %+q | %+q | %+q | %+q |",
+			board[i][0], board[i][1], board[i][2], board[i][3], board[i][4], board[i][5], board[i][6], board[i][7], board[i][8])
+		fmt.Println(s)
+	}
+	fmt.Println("*******************************************************")
 }
