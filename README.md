@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|38|[Count and Say](https://leetcode.com/problems/count-and-say/description/) | [Go](./algorithms/38.Count_and_Say/main.go)|Easy|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/) | [Go](./algorithms/37.Sudoku_Solver/main.go)|Hard|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [Go](./algorithms/36.Valid_Sudoku/main.go)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Go](./algorithms/35.Search_Insert_Position/main.go)|Easy|
