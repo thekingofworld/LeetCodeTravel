@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [Go](./algorithms/39.Combination_Sum/main.go)|Medium|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/description/) | [Go](./algorithms/38.Count_and_Say/main.go)|Easy|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/) | [Go](./algorithms/37.Sudoku_Solver/main.go)|Hard|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [Go](./algorithms/36.Valid_Sudoku/main.go)|Medium|
