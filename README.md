@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | [Go](./algorithms/41.First_Missing_Positive/main.go)|Hard|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/) | [Go](./algorithms/40.Combination_Sum_II/main.go)|Medium|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [Go](./algorithms/39.Combination_Sum/main.go)|Medium|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/description/) | [Go](./algorithms/38.Count_and_Say/main.go)|Easy|
