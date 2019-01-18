@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/) | [Go](./algorithms/44.Wildcard_Matching/main.go)|Hard|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | [Go](./algorithms/41.First_Missing_Positive/main.go)|Hard|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/) | [Go](./algorithms/40.Combination_Sum_II/main.go)|Medium|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [Go](./algorithms/39.Combination_Sum/main.go)|Medium|
