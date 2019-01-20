@@ -59,21 +59,19 @@ func main() {
 }
 
 func isMatch(s string, p string) bool {
-	return SubMatch(s, p, 0, 0)
-}
-
-func SubMatch(s string, p string, si int, pj int) bool {
-	if si == len(s) && pj == len(p) {
-		return true
+	mem := make([][]bool, len(s)+1)
+	for i:=0; i<=len(s); i++ {
+		mem[i] = make([]bool, len(p)+1)
 	}
-	if pj < len(p) && p[pj] == '*' {
-		if si == len(s) {
-			return SubMatch(s, p, si, pj+1)
+	mem[0][0] = true
+	for i:=0; i<=len(s); i++ {
+		for j:=1; j<=len(p); j++ {
+			if p[j-1] == '*' {
+				mem[i][j] = mem[i][j-1] || (i > 0 && mem[i-1][j])
+			} else {
+				mem[i][j] = i > 0 && mem[i-1][j-1] && (s[i-1] == p[j-1] || p[j-1] == '?')
+			}
 		}
-		return SubMatch(s, p, si+1, pj) || SubMatch(s, p, si+1, pj+1) || SubMatch(s, p, si, pj+1)
 	}
-	if si < len(s) && pj < len(p) && (p[pj] == '?' || s[si] == p[pj]) {
-		return SubMatch(s, p, si+1, pj+1)
-	}
-	return false
+	return mem[len(s)][len(p)]
 }
