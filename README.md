@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [Go](./algorithms/64.Minimum_Path_Sum/main.go)|Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/) | [Go](./algorithms/63.Unique_Paths_II/main.go)|Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/) | [Go](./algorithms/62.Unique_Paths/main.go)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Go](./algorithms/53.Maximum_Subarray/main.go)|Easy|
