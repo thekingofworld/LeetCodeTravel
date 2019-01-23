@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/) | [Go](./algorithms/72.Edit_Distance/main.go)|Hard|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [Go](./algorithms/70.Climbing_Stairs/main.go)|Easy|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [Go](./algorithms/64.Minimum_Path_Sum/main.go)|Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/) | [Go](./algorithms/63.Unique_Paths_II/main.go)|Medium|
