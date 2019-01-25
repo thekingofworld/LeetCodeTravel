@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/) | [Go](./algorithms/85.Maximal_Rectangle/main.go)|Hard|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/) | [Go](./algorithms/72.Edit_Distance/main.go)|Hard|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [Go](./algorithms/70.Climbing_Stairs/main.go)|Easy|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [Go](./algorithms/64.Minimum_Path_Sum/main.go)|Medium|
