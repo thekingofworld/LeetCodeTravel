@@ -52,10 +52,12 @@ func maximalRectangle(matrix [][]byte) int {
 				left[j] = 0
 				continue
 			}
-			if mem[i][j] != 0 && mem[i][j] <= mem[i][j-1] {
-				left[j] = left[j-1] + 1
-			} else {
+			if mem[i][j] == 0 {
 				left[j] = 0
+				continue
+			}
+			for k:=j-1; k >= 0 && mem[i][k] >= mem[i][j]; k-- {
+				left[j] += 1
 			}
 		}
 		for j:=n-1; j>=0; j-- {
@@ -63,10 +65,12 @@ func maximalRectangle(matrix [][]byte) int {
 				right[j] = 0
 				continue
 			}
-			if mem[i][j] != 0 && mem[i][j] <= mem[i][j+1] {
-				right[j] = right[j+1] + 1
-			} else {
+			if mem[i][j] == 0 {
 				right[j] = 0
+				continue
+			}
+			for k:=j+1; k<n && mem[i][k] >= mem[i][j]; k++ {
+				right[j] += 1
 			}
 		}
 		for j:=0; j<n; j++ {
