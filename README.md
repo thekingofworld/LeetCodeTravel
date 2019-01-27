@@ -5,6 +5,7 @@ recording the solution of LeetCode problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/) | [Go](./algorithms/96.Unique_Binary_Search_Trees/main.go)|Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/description/) | [Go](./algorithms/91.Decode_Ways/main.go)|Medium|
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/) | [Go](./algorithms/85.Maximal_Rectangle/main.go)|Hard|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/) | [Go](./algorithms/72.Edit_Distance/main.go)|Hard|
