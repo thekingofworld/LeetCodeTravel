@@ -57,3 +57,9 @@ recording the solution of LeetCode problems
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Go](./algorithms/3.Longest_Substring_Without_Repeating_Characters/main.go)|Medium|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Go](./algorithms/2.Add_Two_Numbers/main.go)|Medium|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/description/) | [Go](./algorithms/1.Two_Sum/main.go)|Easy|
+
+以下为LeetCode未记录的一些其他问题
+
+| # | Title |
+|---| ----- |
+|1|[动态连通性](./algorithms/union-find) |
