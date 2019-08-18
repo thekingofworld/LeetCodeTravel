@@ -64,3 +64,4 @@ recording the solution of LeetCode problems
 |---| ----- |
 |1|[动态连通性](./algorithms/union-find) |
 |2|[排序](./algorithms/sort) |
+|3|[符号表](./algorithms/symbol_table) |
