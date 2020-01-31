@@ -6,6 +6,9 @@ recording the solution of LeetCode problems
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/description/) | [Go](./algorithms/887.Super_Egg_Drop/main.go)|Hard|
+|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | [Go](./algorithms/238.Product_of_Array_Except_Self/main.go)|Medium|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | [Go](./algorithms/153.Find_Minimum_in_Rotated_Sorted_Array/main.go)|Medium|
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Go](./algorithms/121.Best_Time_to_Buy_and_Sell_Stock/main.go)|Easy|
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/) | [Go](./algorithms/96.Unique_Binary_Search_Trees/main.go)|Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/description/) | [Go](./algorithms/91.Decode_Ways/main.go)|Medium|
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/) | [Go](./algorithms/85.Maximal_Rectangle/main.go)|Hard|
