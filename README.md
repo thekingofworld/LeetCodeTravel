@@ -9,6 +9,7 @@ recording the solution of LeetCode problems
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | [Go](./algorithms/238.Product_of_Array_Except_Self/main.go)|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | [Go](./algorithms/226.Invert_Binary_Tree/main.go)|Easy|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | [Go](./algorithms/153.Find_Minimum_in_Rotated_Sorted_Array/main.go)|Medium|
+|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | [Go](./algorithms/124.Binary_Tree_Maximum_Path_Sum/main.go)|Hard|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Go](./algorithms/121.Best_Time_to_Buy_and_Sell_Stock/main.go)|Easy|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Go](./algorithms/104.Maximum_Depth_of_Binary_Tree/main.go)|Easy|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/description/) | [Go](./algorithms/100.Same_Tree/main.go)|Easy|
