@@ -16,6 +16,7 @@ recording the solution of LeetCode problems
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Go](./algorithms/104.Maximum_Depth_of_Binary_Tree/main.go)|Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [Go](./algorithms/102.Binary_Tree_Level_Order_Traversal/main.go)|Medium|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/description/) | [Go](./algorithms/100.Same_Tree/main.go)|Easy|
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) | [Go](./algorithms/98.Validate_Binary_Search_Tree/main.go)|Easy|
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/) | [Go](./algorithms/96.Unique_Binary_Search_Trees/main.go)|Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/description/) | [Go](./algorithms/91.Decode_Ways/main.go)|Medium|
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/) | [Go](./algorithms/85.Maximal_Rectangle/main.go)|Hard|
