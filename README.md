@@ -11,6 +11,7 @@ recording the solution of LeetCode problems
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) | [Go](./algorithms/235.Lowest_Common_Ancestor_of_BST/main.go)|Easy|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [Go](./algorithms/230.Kth_Smallest_Element_in_a_BST/main.go)|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | [Go](./algorithms/226.Invert_Binary_Tree/main.go)|Easy|
+|211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/description/) | [Go](./algorithms/211.Add_and_Search_Word/main.go)|Medium|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | [Go](./algorithms/208.Implement_Trie/main.go)|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | [Go](./algorithms/153.Find_Minimum_in_Rotated_Sorted_Array/main.go)|Medium|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | [Go](./algorithms/124.Binary_Tree_Maximum_Path_Sum/main.go)|Hard|
