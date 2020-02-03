@@ -8,6 +8,7 @@ recording the solution of LeetCode problems
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/description/) | [Go](./algorithms/887.Super_Egg_Drop/main.go)|Hard|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | [Go](./algorithms/572.Subtree_of_Another_Tree/main.go)|Easy|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | [Go](./algorithms/238.Product_of_Array_Except_Self/main.go)|Medium|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [Go](./algorithms/230.Kth_Smallest_Element_in_a_BST/main.go)|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | [Go](./algorithms/226.Invert_Binary_Tree/main.go)|Easy|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | [Go](./algorithms/153.Find_Minimum_in_Rotated_Sorted_Array/main.go)|Medium|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | [Go](./algorithms/124.Binary_Tree_Maximum_Path_Sum/main.go)|Hard|
